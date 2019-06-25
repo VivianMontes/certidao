@@ -11,9 +11,9 @@ contract CertidaoDeNascimento {
     string public avosPaternos;
     string public avosMaternos;
     uint public dataHoraDeNascimento;
-    uint peso;
-    bool temGemeo;
-    address oficialDeRegistroDePessoasNaturais;
+    uint public peso;
+    bool public temGemeo;
+    address public oficialDeRegistroDePessoasNaturais;
     
     
     constructor() public {
